@@ -1,0 +1,30 @@
+{
+    "name": "misfits/starter-translations",
+    "description": "Our translations for the starter template of all our projects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Joosten",
+            "email": "tim@activisme.be", 
+            "homepage": "https://www.activisme.be", 
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.0",
+        "illuminate/support": "5.*"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "ActivismeBe\\Translations\\": "src"
+        }
+    }, 
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ActivismeBe\\Translations\\TranslationServiceProvider"
+            ]
+        }
+    }
+}
