@@ -19,14 +19,14 @@ return [
     'cleared-database'          => 'Data cleared, starting from blank database.', 
 
     // usersTableSeeder.php
-    'permissions-added'         => '', 
-    'ask-roles-default'         => '', 
-    'ask-roles-user'            => '', 
-    'perms-synced-admin'        => '', 
-    'role-created-info'         => '',
-    'only-default-role-added'   => '', 
-    'no-roles-added'            => '',
-    'user-admin-role'           => '', 
+    'permissions-added'         => 'Default Permissions added.', 
+    'ask-roles-default'         => 'Create Roles for user, default is admin and user?', 
+    'ask-roles-user'            => 'Enter roles in comma separate format.', 
+    'perms-synced-admin'        => 'Admin granted all the permissions.', 
+    'role-created-info'         => 'Roles :roles added successfully.',
+    'only-default-role-added'   => 'Added only default user role.', 
+    'no-roles-added'            => 'The default user role already exists in the database.',
+    'user-admin-role'           => 'Here is your admin details to login:', 
     'default-password'          => 'Password is "secret"',
 
 
