@@ -17,8 +17,9 @@ return [
     'add-user' => 'Create new user',
 
     'titles' => [
-        'overview' => 'Users overview',
-        'create'   => 'Create new user',
+        'overview'       => 'Users overview',
+        'overview-short' => 'Users',
+        'create'         => 'Create new user',
     ],
 
     'overview-table' => [
@@ -41,5 +42,13 @@ return [
         'firstname' => 'Firstname', 
         'lastname'  => 'Lastname', 
         'email'     => 'Email address for the user'
-    ]
+    ], 
+
+    'register-mail' => [
+        'title'             => 'There is created an login for u on :application',
+        'greeting'          => 'Hello :user,',
+        'first-paragraph'   => 'Some admin has create a login for u on :application. You can login with the following password.',
+        'second-paragraph'  => '**Password:**: `:password`',
+        'button'            => 'Go to website',
+    ],
 ];

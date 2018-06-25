@@ -1,6 +1,6 @@
 <?php 
 
-namespace Misfits\Translations;
+namespace ActivismeBe\Translations;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,6 +24,6 @@ class TranslationServiceProvider extends ServiceProvider
     public function boot(): void
     {
         // USAGE: __('starter::<group>.<key>')
-        $this->loadTranslationsFrom(__DIR__ . '/resources/trans', 'starter');
+        $this->loadTranslationsFrom(__DIR__ . '/resources/trans', 'starter-translations');
     }
 }
